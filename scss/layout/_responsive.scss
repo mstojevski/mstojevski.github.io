@@ -1,0 +1,45 @@
+@media (max-width:768px) {
+  .form-control {
+    width:70%;
+    margin-left:15%;
+  }
+  #hero {
+    height:59.5vh;
+    svg {
+      width: 30px;
+      left: 36px;
+      top: 20px;
+    }
+    .title-hero {
+      h1 {
+        font-size:300%;
+        &:after {
+          display:none;
+        }
+      }
+    }
+  }
+  #about {
+    p {
+      width:90%;
+      margin-left:5%;
+    }
+  }
+  #contact {
+    padding:50px 0;
+    h2 {
+      margin:10px;
+    }
+    .form-group {
+      margin-bottom:0px;
+    }
+    #button-send {
+      margin:20px 0 15px 0;
+
+    }
+  }
+  #services {
+    padding:50px 0;
+  }
+
+}
