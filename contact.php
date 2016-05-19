@@ -3,10 +3,10 @@
 $EmailFrom = "";
 $EmailTo = "stojevskimilan@gmail.com";
 $Subject = "From website";
-$Name = trim(stripslashes($_POST['Name']));
-$Email = trim(stripslashes($_POST['Email']));
-$Phone = trim(stripslashes($_POST['Phone']));
-$Message = trim(stripslashes($_POST['Message']));
+$Name = trim(stripslashes($_GET['Name']));
+$Email = trim(stripslashes($_GET['Email']));
+$Phone = trim(stripslashes($_GET['Phone']));
+$Message = trim(stripslashes($_GET['Message']));
 
 // validation
 $validationOK=true;
