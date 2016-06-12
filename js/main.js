@@ -40,3 +40,10 @@ sr.reveal('.rev', {
   distance:'50px',
 
 });
+sr.reveal('.rev1', {
+  duration: 1500,
+  origin:'top',
+  distance:'50px',
+  mobile : false,
+
+});
