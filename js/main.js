@@ -47,3 +47,9 @@ sr.reveal('.rev1', {
   mobile : false,
 
 });
+sr.reveal('.rev2', {
+  duration: 1500,
+  origin:'bottom',
+  distance:'150px',
+
+});
