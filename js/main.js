@@ -1,3 +1,4 @@
+//Navigation
 var menu = document.querySelector('#menu');
 var main = document.querySelector('#hero');
 var drawer = document.querySelector('.nav');
@@ -10,6 +11,7 @@ menu.addEventListener('click', function(e) {
       main.addEventListener('click', function() {
         drawer.classList.remove('open');
 });
+// scrollTop
 $(function() {
      $('a[href*=#]:not([href=#])').click(function() {
        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -25,22 +27,15 @@ $(function() {
      });
    });
 
-   $(document).ready(function() {
-     $('.galleryItem').magnificPopup(
-       {
-       type:'image',
+   //accordion
 
-       gallery:{
-         enabled:true
-       },
-
-     }
-
-     );
-   });
    $('.ui.accordion')
      .accordion()
    ;
-   $('.i-social')
-     .popup()
-   ;
+//scrollreveal.js
+window.sr = ScrollReveal({ reset: true });
+sr.reveal('.rev', {
+  duration: 1500,
+  origin:'top',
+
+});
