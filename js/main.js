@@ -33,9 +33,10 @@ $(function() {
      .accordion()
    ;
 //scrollreveal.js
-window.sr = ScrollReveal({ reset: true });
+window.sr = ScrollReveal({ reset: false});
 sr.reveal('.rev', {
   duration: 1500,
   origin:'top',
+  distance:'50px',
 
 });
