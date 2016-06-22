@@ -7370,7 +7370,10 @@ h2 {
       transition: background-color 0.2s;
       background-color: transparent; }
       #hero .title-hero .button:hover {
-        opacity: 0.8; }
+        border-color: #444;
+        color: #444;
+        -webkit-transition: background-color 0.2s;
+        transition: background-color 0.2s; }
       #hero .title-hero .button .red-light {
         color: #70FAF8; }
 
@@ -7422,10 +7425,10 @@ h2 {
     background: transparent;
     margin-bottom: 35px; }
     #contact #button-send:hover {
-      color: #70FAF8;
+      color: #444;
       -webkit-transition: background-color 0.2s;
       transition: background-color 0.2s;
-      border-color: #70FAF8; }
+      border-color: #444; }
 
 #services {
   text-align: center;

@@ -35,7 +35,9 @@
 			transition: background-color 0.2s;
 			background-color:transparent;
 			&:hover {
-				opacity:0.8;
+				border-color:#444;
+				color:#444;
+				transition: background-color 0.2s;
 			}
 			.red-light {
 				color:$color-primary;
@@ -93,9 +95,9 @@
 		background:transparent;
 		margin-bottom:35px;
 		&:hover {
-			color:$color-primary;
+			color:#444;
 			transition: background-color 0.2s;
-			border-color:$color-primary;
+			border-color:#444;
 
 		}
 	}
