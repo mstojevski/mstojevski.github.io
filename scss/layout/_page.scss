@@ -20,6 +20,7 @@
 			margin-bottom:40px;
 			font-family:$font-stack;
 		}
+	
 		p {
 			color:rgba(255,255,255,0.8);
 			letter-spacing:5px;
@@ -68,40 +69,7 @@
 		@include border-radius(50%);
 	}
 }
-#contact {
-	text-align:center;
-	background: #43cea2; /* fallback for old browsers */
-	background: #1CD8D2; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #1CD8D2 , #93EDC7); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #1CD8D2 , #93EDC7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	color:$color-white;
-	.i-social {
-		width:35px;
-		margin-bottom:15px;
-	}
-	h2 {
-		margin-bottom:50px;
-	}
-	textarea.form-control {
-		height:150px;
-	}
-	#button-send {
-		background:$color-white;
-		display:inline-block;
-		padding:10px 35px;
-		@include border-radius(20px);
-		color:$color-white;
-		border:1px solid $color-white;
-		background:transparent;
-		margin-bottom:35px;
-		&:hover {
-			color:#444;
-			transition: background-color 0.2s;
-			border-color:#444;
 
-		}
-	}
-}
 #services {
 	text-align:center;
 	color:white;
@@ -109,7 +77,12 @@
 	margin-bottom:3%;
 	background:#444;
 	margin-bottom:0;
-	.wrapper-services-mobile {
+	i {
+		font-size:50px;
+		color:$color-primary;
+	}
+
+	.wrapper-services-mobile {W
 		h3 {
 			display:inline-block;
 			text-align:justify;
@@ -127,8 +100,4 @@
 	h3 {
 		color:rgba(255,255,255,0.9);
 	}
-}
-i {
-	font-size:50px;
-	color:$color-primary;
 }

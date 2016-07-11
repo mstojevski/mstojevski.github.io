@@ -15,6 +15,7 @@ nav {
   transition: transform 0.3s ease, -webkit-transform 0.3s ease;
   background-color: #555;
   z-index: 10;
+  
 
   ul {
     padding: 0;
@@ -61,17 +62,13 @@ nav.open {
 }
 
 
-svg {
-  width: 50px;
+.menu-ham {
+  font-size:45px;
   position: absolute;
   left: 100px;
-  fill:#fff;
+  color:white;
   cursor: pointer;
  }
-}
-#menu-h {
-  fill:#fff;
-  width:55px;
 }
 .well {
   padding:30px 0;

@@ -1,0 +1,86 @@
+#contact {
+	text-align:center;
+	background: #43cea2; /* fallback for old browsers */
+	background: #1CD8D2; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #1CD8D2 , #93EDC7); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #1CD8D2 , #93EDC7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color:$color-white;
+	.i-social {
+		font-size:27px;
+		margin-bottom:15px;
+		padding:7px;
+		color:$color-white;
+		opacity:0.7;
+		&:hover {
+			opacity:1;
+		}
+	}
+	h2 {
+		margin-bottom:50px;
+	}
+	textarea.form-control {
+		height:150px;
+
+	}
+
+	input {
+		color:white;
+		background:transparent;
+		border:1.5px solid white;
+		transition: all .5s ease;
+		&:focus {
+			border:0;
+			box-shadow:none;
+		}
+	}
+	textarea {
+		background:transparent;
+		border:1.5px solid white;
+		box-shadow: none;
+		resize: none;
+		&:focus {
+			box-shadow:0;
+			border:none;
+			color:white;
+		}
+	}
+	input::-webkit-input-placeholder {
+		color: white !important;
+		}
+
+		input:-moz-placeholder { /* Firefox 18- */
+		color: white !important;
+		}
+
+		input::-moz-placeholder {  /* Firefox 19+ */
+		color: white !important;
+ }
+ textarea::-webkit-input-placeholder {
+	 color: white !important;
+	 }
+
+	 textarea:-moz-placeholder { /* Firefox 18- */
+	 color: white !important;
+	 }
+
+	 textarea::-moz-placeholder {  /* Firefox 19+ */
+	 color: white !important;
+ }
+
+	#button-send {
+		background:$color-white;
+		display:inline-block;
+		padding:10px 35px;
+		@include border-radius(20px);
+		color:$color-white;
+		border:1px solid $color-white;
+		background:transparent;
+		margin-bottom:35px;
+		&:hover {
+			color:#444;
+			transition: background-color 0.2s;
+			border-color:#444;
+
+		}
+	}
+}
