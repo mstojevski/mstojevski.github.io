@@ -7553,11 +7553,11 @@ h3 {
     width: 70%;
     margin-left: 15%; }
   #hero {
-    height: 59.5vh; }
-    #hero svg {
-      width: 30px;
-      left: 36px;
-      top: 20px; }
+    height: auto;
+    padding: 220px 0; }
+    #hero .menu-ham {
+      top: 5px;
+      left: 25px; }
     #hero .title-hero h1 {
       font-size: 300%; }
       #hero .title-hero h1:after {
