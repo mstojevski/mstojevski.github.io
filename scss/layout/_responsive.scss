@@ -28,15 +28,13 @@
   }
   #contact {
     padding:50px 0;
-    h2 {
-      margin:10px;
+    input {
+      width:80%;
+      margin-left:10%;
     }
-    .form-group {
-      margin-bottom:0px;
-    }
-    #button-send {
-      margin:20px 0 15px 0;
-
+    textarea {
+      width:80%;
+      margin-left:10%;
     }
   }
   #services {
