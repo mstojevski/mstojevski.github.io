@@ -7571,13 +7571,16 @@ h3 {
   #about p {
     width: 90%;
     margin-left: 5%; }
-  #contact {
-    padding: 50px 0; }
-    #contact input {
-      width: 80%;
-      margin-left: 10%; }
-    #contact textarea {
-      width: 80%;
-      margin-left: 10%; }
+  #contact input {
+    width: 80%;
+    margin-left: 10%; }
+  #contact textarea {
+    width: 80%;
+    margin-left: 10%; }
+  #contact h2 {
+    margin: 10px; }
+  #contact #button-send {
+    width: 30%;
+    margin-left: 35%; }
   #services {
     padding: 50px 0; } }

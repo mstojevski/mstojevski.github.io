@@ -27,8 +27,7 @@
     }
   }
   #contact {
-    padding:50px 0;
-    input {
+     input {
       width:80%;
       margin-left:10%;
     }
@@ -36,6 +35,14 @@
       width:80%;
       margin-left:10%;
     }
+    h2 {
+      margin:10px;
+    }
+    #button-send {
+      width:30%;
+      margin-left:35%;
+    }
+
   }
   #services {
     padding:50px 0;
