@@ -3,69 +3,68 @@
 @import 'mixin';
 @import 'function';
 
-
-* {
-   -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;
-}
-html, body {
-   max-width: 100%;
-   overflow-x: hidden !important;
-}
 body {
- margin:0;
- padding:0;
- font-size:16px;
- font-family:$font-stack;
- text-rendering: optimizeLegibility;
- overflow-x: hidden;
- position:relative;
- animation: fadein 2.5s;
-   -moz-animation: fadein 2.5s; /* Firefox */
-   -webkit-animation: fadein 2.5s; /* Safari and Chrome */
-   -o-animation: fadein 2.5s; /* Opera */
+  font: $font-size $font-stack;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  animation: fadein 2.5s;
+  -moz-animation: fadein 2.5s; /* Firefox */
+  -webkit-animation: fadein 2.5s; /* Safari and Chrome */
+  -o-animation: fadein 2.5s; /* Opera */
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 
 }
-@keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
+
 a {
- text-decoration: none;
- &:hover {
-   text-decoration: none;
- }
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+
 }
+
 section {
- padding:80px 0;
+  padding: 80px 0;
 }
+
 p {
- line-height: 145%;
- font-family: $font-stack;
+  line-height: 145%;
 }
-h1,
+
+h1 {
+  font-family: strasua;
+  font-size: 450%;
+  color: $color-white;
+  margin-bottom: 40px;
+}
+
 h2,
 h3 {
- font-family:$font-stack;
- font-weight:300;
+  font-family: $font-stack;
+  font-weight: 300;
 }
+
 img {
-  max-width:100%;
+  max-width: 100%;
 }
-h1:after {
-  display:block;
-  height:1.5px;
-  background:#fff;
-  content:"";
-  width:500px;
-  margin-top:20px;
-  text-align:center;
-}
+
 h2 {
-  font-weight:500;
+  font-weight: 500;
 }

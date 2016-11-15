@@ -1,18 +1,20 @@
 #contact {
 	text-align:center;
-	background: #43cea2; /* fallback for old browsers */
-	background: #1CD8D2; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #1CD8D2 , #93EDC7); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #1CD8D2 , #93EDC7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background::rgba(68,68,68,0.96);
 	color:$color-white;
+	.social-icons {
+		margin-bottom:20px;
+		margin-top:20px;
+	}
 	.i-social {
-		font-size:27px;
-		margin-bottom:15px;
+		font-size:25px;
+		margin-bottom:50px;
 		padding:7px;
 		color:$color-white;
 		opacity:0.7;
 		&:hover {
 			opacity:1;
+			color:$color-primary;
 		}
 	}
 	h2 {
@@ -88,5 +90,12 @@
 				border-color:#444;
 
 			}
+		}
+	}
+	.contact-link {
+		color:$color-white;
+		&:hover {
+			color:$color-primary;	
+			transition:color 0.2s;
 		}
 	}

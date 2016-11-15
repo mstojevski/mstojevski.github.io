@@ -1,3 +1,9 @@
 // Font directory, families, weights
 $font-stack: 'Raleway', sans-serif;
-$font-sec: 'Playfair Display', serif;
+$font-size: 16px;
+
+@font-face {
+    font-family: strasua;
+    src: url(../fonts/strasua.regular.ttf);
+
+}
