@@ -1,3 +1,6 @@
+/*------------------------------------*\
+  #HERO
+\*------------------------------------*/
 #hero {
 
 	/*background: #43cea2; /* fallback for old browsers */
@@ -13,8 +16,8 @@
 		left:50%;
 		transform: translate(-50%,-50%);
 		border:none;
-		
-	
+
+
 		p {
 			color:rgba(255,255,255,0.8);
 			letter-spacing:5px;
@@ -40,6 +43,15 @@
 		}
 	}
 }
+.triangle-shape {
+	position:absolute;
+	width:100%;
+	bottom:0;
+	height:15.5vw;
+}
+/*------------------------------------*\
+  #ABOUT
+\*------------------------------------*/
 #about {
 	padding:50px 0;
 	text-align:center;
@@ -63,7 +75,9 @@
 		@include border-radius(50%);
 	}
 }
-
+/*------------------------------------*\
+  #SERVICES
+\*------------------------------------*/
 #services {
 	text-align:center;
 	color:white;

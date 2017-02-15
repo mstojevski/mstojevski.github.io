@@ -3955,6 +3955,8 @@ img {
 h2 {
   font-weight: 500; }
 
+/*------------------------------------*  #HERO
+\*------------------------------------*/
 #hero {
   /*background: #43cea2; /* fallback for old browsers */
   background: #1CD8D2;
@@ -3996,6 +3998,14 @@ h2 {
       #hero .title-hero .button .red-light {
         color: #70FAF8; }
 
+.triangle-shape {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 15.5vw; }
+
+/*------------------------------------*  #ABOUT
+\*------------------------------------*/
 #about {
   padding: 50px 0;
   text-align: center;
@@ -4015,6 +4025,8 @@ h2 {
     height: 150px;
     border-radius: 50%; }
 
+/*------------------------------------*  #SERVICES
+\*------------------------------------*/
 #services {
   text-align: center;
   color: white;
