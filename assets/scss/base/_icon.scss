@@ -1,0 +1,40 @@
+.icon {
+  display: inline-block;
+}
+.icons-services {
+  margin-top:2%;
+  margin-bottom:2%;
+  width:39px;
+  height:39px;
+  fill:$color-primary;
+}
+
+.icon-heart {
+  width: 22px;
+  height:22px;
+  fill:$color-primary;
+}
+
+/* Social Icons */
+.icon-facebook {
+  width: 26px;
+  height:26px;
+  fill:$color-white;
+  &:hover {
+
+    fill:$color-primary;
+
+  }
+}
+
+
+.icon-linkedin {
+  width: 26px;
+  height:26px;
+  fill:$color-white;
+  &:hover {
+
+    fill:$color-primary;
+
+  }
+}

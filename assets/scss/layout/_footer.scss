@@ -1,0 +1,35 @@
+.contact {
+	padding:80px 0;
+	text-align:center;
+	background::rgba(68,68,68,0.96);
+	color:$color-white;
+}
+.contact-link {
+	color:$color-primary;
+	display:inline-block;
+
+	&:hover {
+		color:$color-primary;
+		transition:color 0.2s;
+	}
+	&:visited {
+		color:$color-primary;
+	}
+	&:focus {
+		color:$color-primary;
+	}
+}
+.social-links {
+	padding-top:10px;
+}
+.email-link {
+	padding-top:30px;
+	padding-bottom:30px;
+}
+.note-for-end {
+	position: relative;
+  top: 50px;
+}
+.highlight {
+	color: $color-primary;
+}

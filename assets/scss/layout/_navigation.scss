@@ -1,5 +1,5 @@
-#hero {
-nav {
+/* Navigation */
+.primary-menu {
   width: 300px;
   padding-top: 50px;
   height: 100%;
@@ -15,69 +15,50 @@ nav {
   transition: transform 0.3s ease, -webkit-transform 0.3s ease;
   background-color: #555;
   z-index: 10;
+}
 
-
-  ul {
+.primary-menu-header {
     padding: 0;
   }
 
-  li {
+.primary-menu-list {
     list-style-type: none;
     padding-left: 20px;
     margin-top: 20px;
-
-    a {
-      color: #fff;
-
-      &:hover {
-        color: #43cea2;
+}
+.primary-menu-link {
+    color: $color-white;
+    &:hover {
+      color: $color-menu-hover;
       }
-      &:visited {
-        text-decoration: none;
-        border:none;
-      }
-      &:focus {
-        text-decoration:none;
-      }
-    }
-  }
 }
 
-nav.open {
+
+.primary-menu.open {
   position: fixed;
   -webkit-transform: translate(0, 0);
   transform: translate (0,0);
 }
-
-.close {
+/* Navigation Icons */
+.icon-close {
   position: absolute;
   right: 25px;
   top: 20px;
-  color:$color-primary;
-  opacity:0.2;
-  font-size:24px;
+  width: 20px;
+  height:20px;
+  fill:$color-primary;
+  opacity:0.5;
   &:hover {
     cursor: pointer;
     text-decoration: none;
-    opacity:0.5;
+    opacity: 0.2;
   }
-
-  i {
-    color: $color-primary;
-  }
-
 }
-
-
-.menu-ham {
-  font-size:45px;
+.icon-menu {
   position: absolute;
   left: 100px;
-  color:white;
   cursor: pointer;
- }
-}
-.well {
-  padding:30px 0;
-  background:#f5f5f5;
+  fill:$color-white;
+  width: 45px;
+  height:45px;
 }

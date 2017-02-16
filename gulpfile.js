@@ -9,12 +9,15 @@ var autoprefixerOptions = {
 
 
 gulp.task('sass', function () {
-  return gulp.src('scss/**/*.scss')
+  return gulp.src('assets/scss/**/*.scss')
     .pipe(sass({ style: 'compressed' }).on('error', sass.logError))
 		.pipe(autoprefixer(autoprefixerOptions))
-    .pipe(gulp.dest('css/'))
+    .pipe(gulp.dest('assets/css/'))
     .pipe(browserSync.stream());
 });
+
+
+
 gulp.task('serve', function() {
     browserSync.init({
         server: "./"
@@ -22,7 +25,7 @@ gulp.task('serve', function() {
 });
 
 gulp.task('watch', function () {
-  gulp.watch('scss/**/*.scss', ['sass']);
+  gulp.watch('assets/scss/**/*.scss', ['sass']);
   gulp.watch('./index.html').on('change', browserSync.reload);
 });
 
