@@ -1670,12 +1670,12 @@ h1 {
   color: #ffffff;
   margin-bottom: 40px; }
 
-h2 {
+.section-heading {
   margin-bottom: 30px;
   color: #ffffff;
   font-weight: 500; }
 
-h2,
+.section-heading,
 h3 {
   font-family: "Raleway", sans-serif;
   font-weight: 300; }
@@ -1701,7 +1701,6 @@ img {
 
 .hero-holder {
   position: absolute;
-  text-align: center;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -1733,10 +1732,9 @@ img {
 /*------------------------------------*  #ABOUT
 \*------------------------------------*/
 .about {
-  text-align: center;
   color: #ffffff;
   background: #ffffff; }
-  .about h2 {
+  .about .section-heading--dark {
     color: #161616; }
   .about .description {
     width: 50%;
@@ -1752,8 +1750,7 @@ img {
 /*------------------------------------*  #SERVICES
 \*------------------------------------*/
 .services {
-  text-align: center;
-  color: white;
+  color: #ffffff;
   margin-bottom: 3%;
   background: #444;
   margin-bottom: 0; }
@@ -1798,7 +1795,7 @@ img {
   .primary-menu-link:hover {
     color: #43cea2; }
 
-.primary-menu.open {
+.js-primary-menu.open {
   position: fixed;
   -webkit-transform: translate(0, 0);
   transform: translate 0, 0; }
@@ -1875,3 +1872,6 @@ img {
     padding: 50px 0; }
   .primary-menu {
     width: 240px; } }
+
+.u-text-center {
+  text-align: center; }

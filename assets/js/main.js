@@ -1,7 +1,7 @@
 //Navigation
 var menu = document.querySelector('#js-menu');
-var main = document.querySelector('.hero');
-var drawer = document.querySelector('.primary-menu');
+var main = document.querySelector('#js-hero');
+var drawer = document.querySelector('.js-primary-menu');
 
 menu.addEventListener('click', function(e) {
         drawer.classList.toggle('open');
@@ -31,22 +31,10 @@ smoothScroll.init({
    ;
 //scrollreveal.js
 window.sr = ScrollReveal({ reset: false});
-sr.reveal('.rev', {
+sr.reveal('.js-animate', {
   duration: 1500,
   origin:'top',
   distance:'50px',
 
-});
-sr.reveal('.rev1', {
-  duration: 1500,
-  origin:'top',
-  distance:'50px',
-  mobile : false,
-
-});
-sr.reveal('.rev2', {
-  duration: 1500,
-  origin:'bottom',
-  distance:'150px',
 
 });

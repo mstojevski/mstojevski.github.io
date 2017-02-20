@@ -30,7 +30,7 @@
 
 
   <body>
-    <section class="hero" id="hero">
+    <section class="hero" id="js-hero">
       <svg class="triangle-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
         <polygon fill="white" points="0,100 100,0 100,100"/>
       </svg>
@@ -40,12 +40,12 @@
         </svg>
       </a>
         <div class="container">
-          <nav class="primary-menu">
+          <nav class="primary-menu js-primary-menu" role="navigation">
           <svg class="icon-close">
             <use xlink:href="assets/fonts/symbol-defs.svg#icon-close"/>
           </svg>
             <ul class="primary-menu-header">
-              <li class="primary-menu-list"><a data-scroll href="#hero" class="primary-menu-link">Home</a></li>
+              <li class="primary-menu-list"><a href="#" class="primary-menu-link">Home</a></li>
               <li class="primary-menu-list"><a data-scroll href="#about" class="primary-menu-link">About me</a></li>
               <li class="primary-menu-list"><a data-scroll href="#services" class="primary-menu-link">Services</a></li>
               <li class="primary-menu-list"><a data-scroll href="#contact" class="primary-menu-link">Contact me</a></li>
@@ -53,41 +53,41 @@
           </nav>
         </div>
 
-        <div class="hero-holder">
+        <div class="hero-holder u-text-center">
           <h1 class="site-title">milan stojevski</h1>
-          <a href="#contact" class="btn-contact rev2"> Get in touch </a>
+          <a href="#contact" class="btn-contact js-animate"> Get in touch </a>
         </div>
     </section>
 
-    <section class="about" id="about">
+    <section class="about u-text-center" id="about">
       <div class="container">
-        <h2>About me</h2>
-        <img src="assets/img/milanstojevski.jpg" alt="milan stojevski"  class="avatar rev1">
-        <p class="description rev1">I'm a young web designer (22) who enjoys creating beautiful, modern,responsive websites and who is very passionate about web design. I'm also a student of Information Systems and Technologies, <br>Faculty of Organizational Sciences in Belgrade.</p>
+        <h2 class="section-heading section-heading--dark">About me</h2>
+        <img src="assets/img/milanstojevski.jpg" alt="milan stojevski"  class="avatar js-animate">
+        <p class="description js-animate">I'm a young web designer (22) who enjoys creating beautiful, modern,responsive websites and who is very passionate about web design. I'm also a student of Information Systems and Technologies, <br>Faculty of Organizational Sciences in Belgrade.</p>
       </div>
     </section>
 
-    <section class="services" id="services">
+    <section class="services u-text-center" id="services">
       <div class="container">
-        <h2>Services</h2>
+        <h2 class="section-heading">Services</h2>
         <div class="wrapper-services hidden-xs hidden-sm">
           <div class="row">
-            <div class="col-md-4 rev">
-              <h3>Creative</h3>
+            <div class="col-md-4 js-animate">
+              <h3 class="sub-heading">Creative</h3>
               <svg class="icon-wand icons-services">
                 <use xlink:href="assets/fonts/symbol-defs.svg#icon-wand"/>
               </svg>
               <p> Unique and beautiful site for your brand</p>
             </div>
-            <div class="col-md-4 rev">
-              <h3>Code</h3>
+            <div class="col-md-4 js-animate">
+              <h3 class="sub-heading">Code</h3>
               <svg class="icon-gear icons-services">
                   <use xlink:href="assets/fonts/symbol-defs.svg#icon-gear"/>
                 </svg>
               <p> HTML5,CSS3,Bootstrap,SASS,jQuery,JavaScript</p>
             </div>
-            <div class="col-md-4 rev">
-              <h3>Responsive</h3>
+            <div class="col-md-4 js-animate">
+              <h3 class="sub-heading">Responsive</h3>
               <svg class="icon-monitor icons-services">
                 <use xlink:href="assets/fonts/symbol-defs.svg#icon-monitor"/>
               </svg>
@@ -95,22 +95,22 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-4 rev">
-              <h3>WordPress</h3>
+            <div class="col-md-4 js-animate">
+              <h3 class="sub-heading">WordPress</h3>
               <svg class="icon-wordpress icons-services">
                 <use xlink:href="assets/fonts/symbol-defs.svg#icon-wordpress"/>
               </svg>
               <p>WordPress is used by some of the most widely recognized brands in the world</p>
             </div>
-            <div class="col-md-4 rev">
-              <h3>Cross-Browser</h3>
+            <div class="col-md-4 js-animate">
+              <h3 class="sub-heading">Cross-Browser</h3>
               <svg class="icons-services">
                 <use xlink:href="assets/fonts/symbol-defs.svg#icon-browser"/>
               </svg>
               <p>Support to all browsers</p>
             </div>
-            <div class="col-md-4 rev">
-              <h3>Optimised</h3>
+            <div class="col-md-4 js-animate">
+              <h3 class="sub-heading">Optimised</h3>
               <svg class="icon-speed icons-services">
                 <use xlink:href="assets/fonts/symbol-defs.svg#icon-speed"/>
               </svg>
@@ -123,38 +123,38 @@
           <div class="ui inverted segment services_accordion">
             <div class="ui inverted accordion">
               <div class="title"> <!--creative-->
-                <i class="dropdown icon rev"></i>
-                <h3 class="rev">Creative and Unique sites</h3>
+                <i class="dropdown icon js-animate"></i>
+                <h3 class="js-animate sub-heading">Creative and Unique sites</h3>
               </div>
               <div class="content">
                 <p class="transition">Unique sites for your brand</p>
               </div>
               <div class="title"> <!--Coded with -->
-                <i class="dropdown icon rev"></i>
-                <h3 class="rev">Coded with latest tehnologies</h3>
+                <i class="dropdown icon js-animate"></i>
+                <h3 class="js-animate sub-heading">Coded with latest tehnologies</h3>
               </div>
               <div class="content">
                 <p class="transition">HTML5,CSS3,Bootstrap,SASS,jQuery,JavaScript</p>
               </div>
               <div class="title"> <!--Responsive-->
-                <i class="dropdown icon rev"></i>
-                <h3 class="rev">Responsive design</h3>
+                <i class="dropdown icon js-animate"></i>
+                <h3 class="js-animate sub-heading">Responsive design</h3>
               </div>
               <div class="content">
                 <p class="transition">Your website can be viewed on every device!</p>
               </div>
 
               <div class="title"> <!--Cross browsers-->
-                <i class="dropdown icon rev"></i>
-                <h3 class="rev">Cross-Browser support</h3>
+                <i class="dropdown icon js-animate"></i>
+                <h3 class="js-animate sub-heading">Cross-Browser support</h3>
               </div>
               <div class="content">
                 <p class="transition">Your site can be viewed on every browser</p>
               </div>
 
               <div class="title"> <!--Optimised-->
-                <i class="dropdown icon rev"></i>
-                <h3 class="rev">Optimised</h3>
+                <i class="dropdown icon js-animate"></i>
+                <h3 class="js-animate sub-heading">Optimised</h3>
               </div>
               <div class="content">
                 <p class="transition">Clean code and compressed files for better loading time</p>
@@ -168,15 +168,15 @@
 
     <section class="contact" id="contact">
       <div class="container">
-          <h2>Contact me</h2>
+          <h2 class="section-heading">Contact me</h2>
 
-          <div class="email-link rev">
+          <div class="email-link js-animate">
             Send me email
             <a href="mailto:stojevskimilan@gmail.com" class="contact-link">stojevskimilan@gmail.com</a>
 
           </div>
 
-          <div class="rev social-links">
+          <div class="js-animate social-links">
 
             <p>Say <span class="highlight">HI !</span></p>
 

@@ -11,12 +11,11 @@
 }
 .hero-holder {
 	position:absolute;
-	text-align:center;
 	top:50%;
 	left:50%;
 	transform: translate(-50%,-50%);
 	border:none;
-	}
+}
 .btn-contact {
 	display:inline-block;
 	padding:12px 30px;
@@ -42,12 +41,10 @@
   #ABOUT
 \*------------------------------------*/
 .about {
-
-	text-align:center;
 	color:$color-white;
 	background:$color-white;
 
-	h2 {
+	.section-heading--dark {
 		color:#161616;
 	}
 	.description {
@@ -67,8 +64,7 @@
   #SERVICES
 \*------------------------------------*/
 .services {
-	text-align:center;
-	color:white;
+	color:$color-white;
 	margin-bottom:3%;
 	background:#444;
 	margin-bottom:0;
