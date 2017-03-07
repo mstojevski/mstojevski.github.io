@@ -1672,8 +1672,7 @@ h1 {
 
 .section-heading {
   margin-bottom: 30px;
-  color: #ffffff;
-  font-weight: 500; }
+  color: #ffffff; }
 
 .section-heading,
 h3 {
@@ -1825,7 +1824,7 @@ img {
 .contact {
   padding: 80px 0;
   text-align: center;
-  background: rgba(68, 68, 68, 0.96);
+  background-color: rgba(68, 68, 68, 0.96);
   color: #ffffff; }
 
 .contact-link {
