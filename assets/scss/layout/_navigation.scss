@@ -34,10 +34,10 @@
 }
 
 
-.js-primary-menu.open {
-  position: fixed;
+.primary-menu.open {
+  position: fixed !important;
   -webkit-transform: translate(0, 0);
-  transform: translate (0,0);
+  transform: translate(0,0);
 }
 /* Navigation Icons */
 .icon-close {

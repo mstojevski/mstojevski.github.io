@@ -1,7 +1,7 @@
 //Navigation
-var menu = document.querySelector('#js-menu');
-var main = document.querySelector('#js-hero');
-var drawer = document.querySelector('.js-primary-menu');
+let menu = document.querySelector('#js-menu');
+let main = document.querySelector('#js-hero');
+let drawer = document.querySelector('.primary-menu');
 
 menu.addEventListener('click', function(e) {
         drawer.classList.toggle('open');
@@ -25,7 +25,6 @@ smoothScroll.init({
 });
 
    //accordion
-
    $('.ui.accordion')
      .accordion()
    ;
@@ -35,6 +34,4 @@ sr.reveal('.js-animate', {
   duration: 1500,
   origin:'top',
   distance:'50px',
-
-
 });
